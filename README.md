@@ -64,8 +64,10 @@ After the above-mentioned data pre-processing steps, we successfully got the cle
 <img width="443" height="141" alt="image" src="https://github.com/user-attachments/assets/d6592d76-1718-4b34-8cd6-4887e3f8ba20" />
 
 - **Binning**: The age variable was discretized into 5 distinct bins to reduce noise and handle non-linear relationships.
+<img width="535" height="402" alt="image" src="https://github.com/user-attachments/assets/8cd43400-3a6c-446f-92a5-edfcf06bed02" />
 
 ## Results
+<img width="1040" height="382" alt="image" src="https://github.com/user-attachments/assets/c9320d5a-30d3-498a-803c-97a3f09ed2db" />
 
 The final output, verified by a post-processing Data Audit, achieved a **100% success rate** in cleaning:
 
