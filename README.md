@@ -17,6 +17,9 @@ A preliminary scan using the Data Audit node revealed several critical issues th
 
 <img width="961" height="242" alt="image" src="https://github.com/user-attachments/assets/e1a122f9-3ae0-45c2-a968-f5ce9ab5342e" />
 
+These are some outlier data:   
+<img width="572" height="390" alt="image" src="https://github.com/user-attachments/assets/c0b2b05e-3918-4934-9b83-2e5b1c6a557e" />
+
 ## IBM SPSS Modeler Components Used
 
 The workflow leverages the following specialized nodes and algorithms:
@@ -37,6 +40,7 @@ The workflow leverages the following specialized nodes and algorithms:
 ### 1. Categorical Standardization
 
 Invalid labels were corrected via the Reclassify function. For instance, 'F' and 'FEMALE' were consolidated into a single 'FEMALE' category to ensure feature consistency.
+<img width="900" height="686" alt="image" src="https://github.com/user-attachments/assets/28578899-089e-42a1-ab2d-79a2dcbc7f08" />
 
 ### 2. Outlier & Missing Value Treatment
 
@@ -44,6 +48,9 @@ The project utilizes an **"Identify then Impute"** strategy:
 
 - **Nullification**: Meaningless values (e.g., negative ages or extreme income spikes) were first converted to nulls.
 - **Algorithmic Imputation**: The C&RT algorithm was applied to fill these gaps with predicted values, maintaining the statistical integrity of the dataset better than simple mean substitution.
+
+<img width="458" height="325" alt="image" src="https://github.com/user-attachments/assets/f1dc5db8-c005-4d02-8e08-49a9b19e3fd3" />
+<img width="390" height="334" alt="image" src="https://github.com/user-attachments/assets/c0e90706-1d9e-40fd-8b14-81ebdc427b84" />
 
 ### 3. Feature Engineering
 
@@ -61,6 +68,3 @@ The final output, verified by a post-processing Data Audit, achieved a **100% su
 - Zero outliers or extreme values
 - Standardized flag and nominal measurements across all 11 fields
 
-## License
-
-MIT License (or specify your preferred license)
