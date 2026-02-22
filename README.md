@@ -15,6 +15,8 @@ A preliminary scan using the Data Audit node revealed several critical issues th
 | **Invalid Categorical Values** | Inconsistent labeling such as 'F' vs 'FEMALE' and 'YES' vs 'Y' |
 | **Outliers** | Impossible values like -18 or 611 for age, and -1 for income |
 
+<img width="961" height="242" alt="image" src="https://github.com/user-attachments/assets/e1a122f9-3ae0-45c2-a968-f5ce9ab5342e" />
+
 ## IBM SPSS Modeler Components Used
 
 The workflow leverages the following specialized nodes and algorithms:
