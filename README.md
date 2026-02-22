@@ -52,11 +52,16 @@ The project utilizes an **"Identify then Impute"** strategy:
 <img width="458" height="325" alt="image" src="https://github.com/user-attachments/assets/f1dc5db8-c005-4d02-8e08-49a9b19e3fd3" />
 <img width="390" height="334" alt="image" src="https://github.com/user-attachments/assets/c0e90706-1d9e-40fd-8b14-81ebdc427b84" />
 
+After the above-mentioned data pre-processing steps, we successfully got the clean data with no outliers, no extreme, no null value, no empty string, no white space, and no blank value.   
+<img width="954" height="740" alt="image" src="https://github.com/user-attachments/assets/54b424b9-43a6-46e8-b247-1378f4ef6e49" />
+
 ### 3. Feature Engineering
+<img width="527" height="423" alt="image" src="https://github.com/user-attachments/assets/2f8b38b7-9087-4aaa-8246-697c31633ceb" />
 
 - **Normalization**: Applied Min-Max scaling to income using the formula:
   $$x_n = \frac{X_i - Min}{Max - Min}$$
   to bring values into a [0, 1] range.
+<img width="443" height="141" alt="image" src="https://github.com/user-attachments/assets/d6592d76-1718-4b34-8cd6-4887e3f8ba20" />
 
 - **Binning**: The age variable was discretized into 5 distinct bins to reduce noise and handle non-linear relationships.
 
